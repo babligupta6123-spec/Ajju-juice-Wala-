@@ -1,0 +1,113 @@
+{
+  "brandName": "Ajju Juice Wala",
+  "tagline": "Fresh Fruits. Real Taste. Full Energy!",
+  "shortDescription": "Freshly squeezed fruit juices, thick rich milkshakes, and refreshing fruit blasts made to order.",
+  "whatsappNumber": "919876543210",
+  "displayPhone": "+91 98765 43210",
+  "email": "ajju.juicewala@example.com",
+  "instagram": "@ajjujuicewala",
+  "address": "Shop No. 4, Ground Floor, Central Market Road, Near City Clock Tower",
+  "cityArea": "Central Market",
+  "openingHours": "Monday – Sunday: 8:00 AM – 10:30 PM",
+  "googleMapsUrl": "https://maps.google.com/?q=Ajju+Juice+Wala",
+  "fssaiLicenseNumber": "FSSAI Lic. No. 22223049000128",
+  "currencySymbol": "₹",
+  "freeDeliveryThreshold": 249,
+  "standardDeliveryFee": 30,
+  "minOrderAmount": 40,
+  "estimatedPrepTime": "15–20 mins",
+  "estimatedDeliveryTime": "30–40 mins",
+  "supportedDeliveryAreas": [
+    "Central Market",
+    "Civil Lines",
+    "Model Town",
+    "Station Road",
+    "University Campus",
+    "Subhash Nagar",
+    "Gandhi Chowk",
+    "Railway Colony"
+  ],
+  "isShopOpen": true,
+  "paymentMethods": {
+    "cod": true,
+    "pickup_pay": true,
+    "online": true
+  },
+  "dailySpecials": {
+    "Sunday": {
+      "day": "Sunday",
+      "productId": "ajju-special-fruit-blast",
+      "badgeText": "Sunday Energy Blast",
+      "discountPercent": 10,
+      "isActive": true
+    },
+    "Monday": {
+      "day": "Monday",
+      "productId": "orange-juice",
+      "badgeText": "Monday Immunity Boost",
+      "discountPercent": 10,
+      "isActive": true
+    },
+    "Tuesday": {
+      "day": "Tuesday",
+      "productId": "sweet-lime-juice",
+      "badgeText": "Tuesday Desi Refresh",
+      "discountPercent": 10,
+      "isActive": true
+    },
+    "Wednesday": {
+      "day": "Wednesday",
+      "productId": "watermelon-juice",
+      "badgeText": "Midweek Hydration Hit",
+      "discountPercent": 10,
+      "isActive": true
+    },
+    "Thursday": {
+      "day": "Thursday",
+      "productId": "pineapple-juice",
+      "badgeText": "Tangy Thursday Sip",
+      "discountPercent": 10,
+      "isActive": true
+    },
+    "Friday": {
+      "day": "Friday",
+      "productId": "mango-shake",
+      "badgeText": "Friday King Mango",
+      "discountPercent": 10,
+      "isActive": true
+    },
+    "Saturday": {
+      "day": "Saturday",
+      "productId": "chocolate-shake",
+      "badgeText": "Weekend Choco Indulgence",
+      "discountPercent": 10,
+      "isActive": true
+    }
+  },
+  "setupChecklist": [
+    {
+      "key": "whatsapp",
+      "label": "Shop WhatsApp Order Number",
+      "isConfigured": false,
+      "helpText": "Currently using placeholder (+91 98765 43210). Update in shopConfig.ts or Owner Dashboard to receive live WhatsApp pings."
+    },
+    {
+      "key": "address",
+      "label": "Exact Stall Address & Landmark",
+      "isConfigured": true,
+      "helpText": "Central Market Road near City Clock Tower configured."
+    },
+    {
+      "key": "prices",
+      "label": "12 Fresh Drink Menu & Pricing",
+      "isConfigured": true,
+      "helpText": "All 12 requested juices, milkshakes, and specials active and editable."
+    },
+    {
+      "key": "delivery",
+      "label": "Delivery Areas & Charges",
+      "isConfigured": true,
+      "helpText": "8 city zones active with ₹249 free delivery threshold."
+    }
+  ]
+}
